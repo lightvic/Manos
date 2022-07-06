@@ -1,0 +1,161 @@
+/* Settings_card so useless */
+.chevron>span {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Planning_card and planning */
+/* 1. planning_card */
+.planning_tbody>tr>td {
+  font-weight: bold;
+  font-size: 0.8em;
+  border: none;
+
+}
+
+.planning_thead>tr>th {
+  font-size: 0.8em;
+  border: none;
+
+}
+
+/* 2. planning */
+@media screen and (max-width: 1440px) {
+  .planning_arrows>.swiper-button-prev::after {
+    font-size: 1.5em;
+  }
+
+  .planning_arrows>.swiper-button-prev {
+    top: 3.6em;
+    left: 15em;
+  }
+
+
+  .planning_arrows>.swiper-button-next::after {
+    font-size: 1.5em;
+  }
+
+  .planning_arrows>.swiper-button-next {
+    top: 3.6em;
+    right: 15em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .planning_arrows>.swiper-button-prev::after {
+    font-size: 1.5em;
+  }
+
+  .planning_arrows>.swiper-button-prev {
+    top: 3.6em;
+    left: 14em;
+  }
+
+
+  .planning_arrows>.swiper-button-next::after {
+    font-size: 1.5em;
+  }
+
+  .planning_arrows>.swiper-button-next {
+    top: 3.6em;
+    right: 14em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .planning_arrows>.swiper-button-prev::after {
+    font-size: 1.2em;
+  }
+
+  .planning_arrows>.swiper-button-prev {
+    top: 3.8em;
+    left: 6em;
+  }
+
+
+  .planning_arrows>.swiper-button-next::after {
+    font-size: 0.875em;
+  }
+
+  .planning_arrows>.swiper-button-next {
+    top: 3.8em;
+    right: 6em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .planning_arrows>.swiper-button-prev::after {
+    font-size: 0.875em;
+  }
+
+  .planning_arrows>.swiper-button-prev {
+    top: 2.8em;
+    left: 6.5em;
+  }
+
+
+  .planning_arrows>.swiper-button-next::after {
+    font-size: 0.875em;
+  }
+
+  .planning_arrows>.swiper-button-next {
+    top: 2.8em;
+    right: 6.5em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .planning_arrows>.swiper-button-prev::after {
+    font-size: 0.875em;
+  }
+
+  .planning_arrows>.swiper-button-prev {
+    top: 2.8em;
+    left: 5em;
+  }
+
+
+  .planning_arrows>.swiper-button-next::after {
+    font-size: 0.875em;
+  }
+
+  .planning_arrows>.swiper-button-next {
+    top: 2.8em;
+    right: 5em;
+  }
+}
+
+
+
+/* Category_swiper jobs and type */
+.category_swiper>div>span {
+  background: none;
+}
+
+
+.category_swiper>.swiper-wrapper>.swiper-slide {
+  text-align: center;
+  font-size: 1.125em;
+  margin-left: 1em;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.category_swiper>.swiper-wrapper>.swiper-slide img {
+
+  display: block;
+  width: 7.625em;
+  object-fit: cover;
+}
